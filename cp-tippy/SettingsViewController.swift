@@ -40,7 +40,6 @@ class SettingsViewController: UIViewController {
         defaults.set(tipIndex, forKey: "tipIndex")
         defaults.set(true, forKey: "defaultChanged")
         defaults.synchronize()
-        //print(String(tipIndex))
     }
     
     @IBAction func roundTipSwitchChanged(_ sender: AnyObject) {
